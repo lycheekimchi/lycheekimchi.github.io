@@ -1,0 +1,47 @@
+---
+layout: default
+title: Home
+---
+
+<head>
+	<style>
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: 350px 350px;
+		  /*background-color: #2196F3;*/
+		  padding: 10px;
+		}
+		.grid-item {
+		  /*background-color: rgba(255, 255, 255, 0.8);*/
+		  border: 1px solid rgba(0, 0, 0, 0.8);
+		  padding: 20px;
+		  font-size: 30px;
+		  text-align: center;
+		}
+		.title-text, .title-text:link {
+			color:black;
+		}
+		.title-text:hover {
+			text-decoration: underline;
+		}
+		.no-underline {
+			text-decoration: none;
+		}
+		body {
+			background-image:url("/assets/img/me2.jpg");
+			background-position: 45% 55%;
+			color:black;
+		}
+	</style>
+</head>
+
+Hello! My name is Michael.
+<br>
+I like to write; here are some links to things I've written.
+
+<ul class="homepagelist" style="list-style-type: none; line-height: 1.1; font-size: 3.5em;">
+	<li class="title-text"><a href="/journals" class="no-underline">journal</a></li>
+	<li class="title-text"><a href="/pieces" class="no-underline">pieces</a></li>
+	<li class="title-text"><a href="/scrapbook" class="no-underline">scrapbook</a></li>
+	<li class="title-text"><a href="/about" class="no-underline">about</a></li>
+</ul>

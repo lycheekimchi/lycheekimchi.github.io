@@ -1,0 +1,9 @@
+<nav role="navigation">
+  <ul>
+    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+    <li><a href="/tags" {% if page.url == "/tags" %}class="active"{% endif %}>Tags</a></li>
+    <li><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li>
+    <li><a href="/Journals" {% if page.url == "/Journals" %}class="active"{% endif %}>Journal</a></li>
+    <li><a href="/pieces" {% if page.url == "/pieces" %}class="active"{% endif %}>Pieces</a></li>
+  </ul>
+</nav>
