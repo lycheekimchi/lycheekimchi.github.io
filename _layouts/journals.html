@@ -9,14 +9,18 @@ title: Journal
 <p><em>day-to-day nonsense</em></p>
 
 </div>
-  {% for x in site.journals %}
+  {% for x in site.journals reversed %}
 
-    <ul class="journallist">
-      <li>
-        <a href="{{ site.baseurl }}{{ x.url }}">{{x.title}}</a> <span style="font-style: italic;font-size:70%;opacity:70%;"> {{ x.date | date:"%B %-d, %Y" }} </span>
-      </li>
-    </ul>
+
+
+    <span style="font-weight: 700;"> {{ x.date | date:"%B %-d, %Y" }} </span>
+
+    <a href="{{ site.baseurl }}{{ x.url }}"style="font-style: italic;font-size:70%;opacity:70%;">permalink</a> 
+
+
+
+    {{x.content | markdownify}}
+
+    <div style="color:gray; font-size: 80%; text-align: center; padding: 10px 10px 10px 10px;"><center>•</div></center>
 
   {% endfor %}
-
-

@@ -55,13 +55,13 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /:slug
   projects:
     output: true
     permalink: /projects/:slug
   journals:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /journal/:name
   
 defaults:
   -
