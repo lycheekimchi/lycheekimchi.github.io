@@ -98,3 +98,9 @@ defaults:
       path: "assets/images"
     values:
       image: true
+  -
+    scope:
+      path: ""
+      type: "scrapbook"
+    values:
+      layout: "scrapbook"

@@ -1,0 +1,4 @@
+---
+title: Scrapbook
+layout: scrapbook
+---
