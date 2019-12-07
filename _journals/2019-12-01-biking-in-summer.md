@@ -1,8 +1,9 @@
 ---
 title: biking in summer
 tags: bike
+published: false
 ---
-Dec 2 at 3:51am
+
 Here is my summer evening routine: first, pick a cardinal direction. There aren't many choices. I can choose west, through the subdivision and its neatly trimmed lawns; west past the hospital and the field used for helicopter landings; south to go alongside the football field and the massively rectangular high school; and north through the city itself (if you can call it that). Regardless of my choice, all the roads (save for the highways) follow the same path: they snake outside the town of Jerseyville towards the vast expanse of farmland.
 
 I make a choice. The decision takes half a second. It's purely arbitrary, since the scenery is all the same, but I've grown accustomed to going west; I'm fond of this stretch of perfectly straight road that bisects a perfectly flat soybean field. The next step is to get on my bike, and push my overworked legs into action once more -- soon, I'm driving my body down the country roads, shifting gears with the elevation, coasting on downhill stretches. Pedals spinning, brakes disengaged. I cut through the air.
