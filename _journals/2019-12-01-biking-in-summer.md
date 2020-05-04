@@ -1,7 +1,6 @@
 ---
 title: biking in summer
 tags: bike
-published: false
 ---
 
 Here is my summer evening routine: first, pick a cardinal direction. There aren't many choices. I can choose west, through the subdivision and its neatly trimmed lawns; west past the hospital and the field used for helicopter landings; south to go alongside the football field and the massively rectangular high school; and north through the city itself (if you can call it that). Regardless of my choice, all the roads (save for the highways) follow the same path: they snake outside the town of Jerseyville towards the vast expanse of farmland.
