@@ -33,6 +33,7 @@ baseurl:             ""
 
 include:
   - _redirects
+  - _static
   
 compress_html:
   clippings: all
