@@ -3,9 +3,14 @@ layout: default
 ---
 
 <article class="post" role="article">
-	<div class="meta">
-  <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-  <div class="meta">
+
+
+		<div class="post-meta">
+  <h1>{{ page.title }}</h1>
+  <p class="subtitle" datetime="{{ page.date | date_to_xmlschema }}"> <span style="float:left;">
+  {{ page.date | date: "%B %-d, %Y" }}</span> <span style="float:right;">{% include readtime.html %}</span></p>
+	</div>
+	<br>
   {{ content }}
 <!--     <p style="font-size:80%;font-style:italic;opacity:80%">
       Tagged 

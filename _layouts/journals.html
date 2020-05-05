@@ -11,16 +11,13 @@ title: Journal
 </div>
   {% for x in site.journals reversed %}
 
-
-
-    <span style="font-weight: 700;"> {{ x.date | date:"%B %-d, %Y" }} </span>
-
-    <a href="{{ site.baseurl }}{{ x.url }}"style="font-style: italic;font-size:70%;opacity:70%;">permalink</a> 
-
-
-
-    {{x.content | markdownify}}
-
-    <div style="color:gray; font-size: 80%; text-align: center; padding: 10px 10px 10px 10px;"><center>•</div></center>
+    <a href="{{ site.baseurl }}{{ x.url }}" style="font-weight: 500;font-size:120%;text-decoration:none;"> {{ x.title }}</a>
+    <span style="font-weight: 400;font-size:80%;opacity:80%;"> {{ x.date | date:"%B %-d, %Y" }} </span>
+    <br>
+    <span style="font-size:70%;">{{ x.content | strip_html | truncatewords:15 }}</span>
+    <a href="{{ site.baseurl }}{{ x.url }}"style="font-style: italic;font-size:70%;opacity:80%;">Read more</a> 
+    <br>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray;width:20%;opacity:30%">
+    <!-- {{x.content | markdownify}} -->
 
   {% endfor %}

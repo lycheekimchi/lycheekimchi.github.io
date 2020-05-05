@@ -1,5 +1,5 @@
 ---
-title: how does this work
+title: How does this work?
 layout: journal
 ---
 
@@ -13,7 +13,7 @@ But anyway, the motivation for this website was this workflow I had in mind:
 2. I would save it as a text file on my computer
 3. I would hit a keyboard shortcut and BOOM, the journal entry would be auto-magically updated, formatted as an HTML file, and uploaded to my website
 
-Sounds easy right? The idea is I wouldn’t have to copy and paste the text into a text box into some website, which would be cumbersome. I already save a ton of journal entries on my laptop, so it would be cool if a program could upload and format all of them for me, and I wouldn’t have to go through each one _individually_ and upload them to Wordpress or Medium or whatever.
+Sounds easy right? The idea is I wouldn’t have to copy and paste the text into a text box into some website, which would be cumbersome. I already save a ton of journal entries on my laptop, so it would be cool if a program could upload and format all of them for me, and I wouldn’t have to go through each one _individually_ and upload them to Wordpress or Medium or whatever. Another plus-side: freedom of customization!
 
 The framework I found for this was Jekyll, which promises to transform plain text into entire websites ready to “deploy.” This seemed to match the “write text file => upload to blog” pipeline I had in mind.
 
@@ -29,7 +29,7 @@ Anyway here is the tldr of the workflow I promised:
 - Then I installed [Github Desktop](https://desktop.github.com/) and followed [this](https://jekyllrb.com/docs/github-pages/) to put it on GitHub Pages
 - Now, whenever I write something, all I have to do is save it in the Jekyll folder and hit ctrl-P to push the changes up.
 
-So yeah that’s pretty much it. I guess it was worth it, but if you asked me to make even a _tiny_ change to the CSS I feel like I would break everything.
+So yeah that’s pretty much it. I guess it was worth it, but if you asked me to make even a _tiny_ change to the CSS or the website structure I feel like I would break everything.
 
 That’s it for now. Again, if you asked me how to build a website for writing, I would just tell you to use Medium or something.
 
