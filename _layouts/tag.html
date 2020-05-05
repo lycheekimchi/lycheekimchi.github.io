@@ -5,6 +5,7 @@ title: Tag
 
 <article role="article" class="post">
 <h1>Tag: #{{page.tag}}</h1>
+	posts tagged #{{page.tag}}...
     <ul>
       {% for post in site.posts %}
       {% if post.tags contains page.tag %}
