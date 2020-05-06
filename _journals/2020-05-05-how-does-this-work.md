@@ -17,7 +17,7 @@ Sounds easy right? The idea is I wouldn’t have to copy and paste the text into
 
 The framework I found for this was Jekyll, which promises to transform plain text into entire websites ready to “deploy.” This seemed to match the “write text file => upload to blog” pipeline I had in mind.
 
-Also it seemed pretty easy to use. If Jekyll were more layman-accessible, I think it would help cause a resurgence to independent blogs and personal websites, instead of your entire Internet presence localized on the same 5 websites as everyone else.
+Also it seemed pretty easy to use. If Jekyll were more layman-accessible, I think it would help cause a resurgence to independent blogs and personal websites, instead of your entire Internet presence [localized on the same 5 websites as everyone else](https://www.buzzfeednews.com/article/katienotopoulos/how-we-killed-the-old-internet).
 
 Anyway here is the tldr of the workflow I promised:
 
