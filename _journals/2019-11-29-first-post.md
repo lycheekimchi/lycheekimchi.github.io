@@ -1,6 +1,6 @@
 ---
 layout: journal
-title: first post 
+title: into lately
 ---  
 things im into lately...
 
