@@ -6,14 +6,20 @@ title: Journal
 <div class="intro">
 
 <h2>Journal</h2>
-<p><em>i gotta delete this shit</em></p>
+<p><em>under construction</em></p>
 
 </div>
   {% for x in site.journals reversed %}
 
-    <a href="{{ site.baseurl }}{{ x.url }}" style="font-weight: 500;font-size:120%;text-decoration:none;"> {{ x.title }}</a>
+  	<!-- UNCOMMENT THE BLOCK BELOW TO RESTORE JOURNAL -->
+
+ <!--    <a href="{{ site.baseurl }}{{ x.url }}" style="font-weight: 500;font-size:120%;text-decoration:none;"> {{ x.title }}</a>
     <span style="font-weight: 400;font-size:80%;opacity:80%;"> {{ x.date | date:"%B %-d, %Y" }} </span>
-    <br>
+    <br> -->
+
+    <!-- UNCOMMENT BLOCK ABOVE TO RESTORE JOURNAL -->
+    <!-- the block below is, uh, previews? I think. -->
+
     <!-- <span style="font-size:70%;">{{ x.content | strip_html | truncatewords:15 }}</span> -->
     <!-- <a href="{{ site.baseurl }}{{ x.url }}"style="font-style: italic;font-size:70%;opacity:80%;">Read more</a>  -->
     <!-- <br> -->
